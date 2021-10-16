@@ -1,0 +1,48 @@
+/* {
+    margin: 0;
+    padding: 0;
+}*/
+
+body {
+    background-color: rgb(0, 0, 0);
+    padding: 200px;
+}
+
+.parent {
+    background-color: rgb(253, 253, 253);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    gap: 5px;
+    flex-wrap:wrap ;/*for the more child atoms are arranged in signle line to another line*/
+    justify-content: flex-end;/*this is for block can arrange right end*/
+    align-items: center;/*this for block can come from 1 row to 2 row*/ 
+    
+}
+
+.child {
+    background-color: cyan;
+    width: 200px;
+    height: 200px;
+}
+
+/*@media (min-width:768px) {
+    body {
+        background-color: cornflowerblue;
+    }
+    
+}
+
+@media (min-width:1024px) {
+    body {
+        background-color: rgb(226, 53, 53);
+    }
+    
+}
+
+@media (min-width:1280px) {
+    body {
+        background-color: rgb(72, 238, 86);
+    }
+    
+}*\
